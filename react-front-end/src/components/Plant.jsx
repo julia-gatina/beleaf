@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { Link, useParams } from "react-router-dom";
 import { getPlantById, getUserById } from "../helpers/selectors";
 import { Button, Container, Grid, Icon, List, Segment } from 'semantic-ui-react';
-import "./App.css";
+import "../App.css";
 import axios from "axios";
 
 export default function Plant({ plants, users, user_id }) {

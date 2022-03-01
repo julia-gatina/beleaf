@@ -8,7 +8,7 @@ import Home from './Home';
 import NotFound from './NotFound';
 import Profile from './Profile';
 import Dashboard from './Dashboard';
-import Plant from './Plant';
+import Plant from './components/Plant';
 import Cookies from 'universal-cookie';
 import Newsfeed from './Newsfeed';
 import Wishlist from './Wishlist';
